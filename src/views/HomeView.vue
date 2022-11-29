@@ -1,5 +1,12 @@
-<script setup lang="ts">
+<script  lang="ts">
+import { defineComponent } from '@vue/runtime-core'
 import NewsFeed from '../components/NewsFeed.vue'
+export default defineComponent({
+  setup(){
+
+  }
+
+});
 
 </script>
 
@@ -7,4 +14,6 @@ import NewsFeed from '../components/NewsFeed.vue'
   <main>
     <NewsFeed />
   </main>
+    
+  
 </template>

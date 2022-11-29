@@ -1,5 +1,11 @@
-<script setup lang="ts">
+<script lang="ts">
+import { defineComponent } from 'vue';
 import { RouterLink, RouterView } from 'vue-router'
+import NewsFeed from './components/NewsFeed.vue';
+export default defineComponent({
+  components: { NewsFeed },
+  
+});
 
 </script>
 
@@ -16,6 +22,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </header>
 
   <RouterView />
+  <NewsFeed />
 </template>
 
 <style scoped>
